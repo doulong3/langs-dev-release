@@ -1,0 +1,13 @@
+Source: ros-fuerte-langs-dev
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-fuerte-catkin,ros-fuerte-genlisp,ros-fuerte-genpy,ros-fuerte-gencpp
+Homepage: http://www.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-fuerte-langs-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-fuerte-catkin,ros-fuerte-genlisp,ros-fuerte-genpy,ros-fuerte-gencpp
+Description: Meta package modeling the build-time dependencies for language bindings of messages.
+
