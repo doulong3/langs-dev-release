@@ -1,0 +1,12 @@
+Source: langs-dev
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-genlisp,ros-groovy-genpy,ros-groovy-catkin,ros-groovy-gencpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: langs-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-genlisp,ros-groovy-genpy,ros-groovy-catkin,ros-groovy-gencpp
+Description: Meta package modeling the build-time dependencies for language bindings of messages.
